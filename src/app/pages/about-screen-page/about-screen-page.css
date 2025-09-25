@@ -1,0 +1,168 @@
+section{
+    position: relative;
+    width: 100%;
+    height: 1142px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.about-container {
+    max-width: 1291px;
+    width: calc(100% - 258px); 
+    height: calc(100% - 258px);
+    margin: 129px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-us__container{
+    width: 159px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.line-decorate{
+    width: 30px;
+    height: 2.5px; 
+    background-color: #616161; 
+    border-radius: 1.25px;
+
+}
+
+/* about-frame__container */
+.about-frame__container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 117px; 
+    flex-wrap: nowrap;
+}
+
+
+
+
+.frame-img {
+    width: 524px;
+    height: 360px;
+    padding: 15px;
+    border: 1.5px solid #E0E0E0;
+    opacity: 100%;
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.frame-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 34px;
+    display: block;
+}
+
+  
+
+
+.about-article__container{
+    width: 650px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-title {
+    height: 42px;
+}
+.about-title h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.about-title h1>span{
+    color: #FF8D41;
+}
+
+.about-article{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+.about-1{
+    height: 88px;
+}
+
+
+.about-1 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+    text-align: left;
+    height: auto;
+    line-height: normal;
+    letter-spacing: 0px;
+    vertical-align: top;
+    opacity: 1;
+}
+
+.about-2{
+    height: 66px;
+}
+
+.about-2 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(158, 158, 158, 1);
+    text-align: left;
+    height: auto;
+    line-height: normal;
+    letter-spacing: 0px;
+    vertical-align: top;
+    opacity: 1;
+}
+
+
+
+.about-btn button{
+    width: 126px;
+    height: 44px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1.5px solid #FF8D41;
+    border-radius: 12px;
+    color: #FF8D41;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
