@@ -1,0 +1,125 @@
+section{
+    position: relative;
+    width: 100%;
+    height: 954px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-container{
+    max-width: 1236px;
+    height: 754px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 157px;
+}
+
+
+.services-title{
+    width: 419px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.title1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 188px;
+}
+.line-decorate{
+    width: 30px;
+    height: 2.5px; 
+    background-color: #616161; 
+    border-radius: 1.25px;
+
+}
+.title1 p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(97, 97, 97, 1);
+    line-height: 140%;
+}
+
+
+
+.title2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.title2 h1>span{
+    color: #FF8D41;
+}
+
+
+/* Services-components */
+.services-components{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.service-box{
+    width: 350px;
+    height: 258px;
+    padding: 64px 32px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.service-box__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.about{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.about-title h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    color: rgba(66, 66, 66, 1);
+}
+
+.about-article p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(158, 158, 158, 1);
+}
+
+/* Hover */
+.service-box:hover {
+    background-color: #FF8D41;
+}
+
+.service-box:hover .about-title h3,
+.service-box:hover .about-article p {
+    color: #FFFFFF;
+}
+.service-box:hover .logo img {
+    filter: brightness(0) invert(1);
+}

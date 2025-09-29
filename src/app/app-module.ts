@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer-component/footer-component'
 import { HomeScreenPage } from './pages/home-screen-page/home-screen-page';
 import { AboutScreenPage } from './pages/about-screen-page/about-screen-page';
 import { StatsScreenPage } from './pages/stats-screen-page/stats-screen-page';
+import { ServicesScreenPage } from './pages/services-screen-page/services-screen-page';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StatsScreenPage } from './pages/stats-screen-page/stats-screen-page';
     FooterComponent,
     HomeScreenPage,
     AboutScreenPage,
-    StatsScreenPage
+    StatsScreenPage,
+    ServicesScreenPage
   ],
   imports: [
     BrowserModule,
