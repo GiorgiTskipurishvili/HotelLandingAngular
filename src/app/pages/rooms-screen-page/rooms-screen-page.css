@@ -1,0 +1,141 @@
+section{
+    position: relative;
+    width: 100%;
+    height: 738px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* .rooms-container {
+    max-width: 1236px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0 156px;
+}
+ */
+
+
+
+/*   */
+
+.rooms-container{
+    max-width: 1236px;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 156px;
+}
+
+.rooms-title{
+    width: 386px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.title1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 176px;
+}
+.line-decorate{
+    width: 30px;
+    height: 2.5px; 
+    background-color: #616161; 
+    border-radius: 1.25px;
+
+}
+.title1 p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(97, 97, 97, 1);
+    line-height: 140%;
+}
+
+.title2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.title2 h1>span{
+    color: #FF8D41;
+}
+
+
+
+
+/* .rooms-components{
+    width: 100%;
+    height: 348px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+} */
+
+.rooms-components {
+    width: 100%;
+    height: 348px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.room-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    cursor: pointer;
+}
+
+.room-box__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 380px;
+    height: 348px; */
+    border: 1px solid rgba(238, 238, 238, 1);
+    box-sizing: border-box;
+}
+
+.img{
+    width: 380px;
+    height: 250px;
+}
+
+.room-about{
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.room-title h4{
+    color: rgba(66, 66, 66, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.room-price{
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    height: 20px;
+}
