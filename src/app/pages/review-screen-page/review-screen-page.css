@@ -1,0 +1,129 @@
+section{
+    width: 100%;
+    height: 608px;
+
+
+
+    padding: 100px 157px; /* ზედა და ქვედა 100px, მარცხენა და მარჯვენა 157px */
+    box-sizing: border-box; /* რათა padding არ გავლენას მოახდინოს width-ზე */
+    display: flex;
+    justify-content: center; /* review-container-ს ჰორიზონტალურად ცენტრში გამოიტან */
+    align-items: start; /* ზედა ნაწილი */
+}
+
+/* .review-container{
+    width: 1236px;
+    height: 408px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+} */
+
+.review-container {
+    width: 100%;
+    max-width: 1236px;
+    min-width: calc(100% - 314px); /* მინიმუმი 157px * 2 გვერდზე */
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.review-title{
+    width: 367px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.title1{
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 176px;
+}
+.line-decorate{
+    width: 30px;
+    height: 2.5px; 
+    background-color: #616161; 
+    border-radius: 1.25px;
+
+}
+.title1 p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(97, 97, 97, 1);
+    line-height: 140%;
+}
+
+.title2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.title2 h1>span{
+    color: #FF8D41;
+}
+
+
+
+
+.review-components{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.review-box{
+    width: 298px;
+    height: 218px;
+    /* background-color: #616161; */
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rw1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-txt h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+}
+
+
+.rw2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-txt-bold h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(66, 66, 66, 1);
+}
+
+.review-mail p{
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 500;
+    color: rgba(158, 158, 158, 1);
+}

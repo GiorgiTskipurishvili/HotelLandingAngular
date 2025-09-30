@@ -10,6 +10,7 @@ import { AboutScreenPage } from './pages/about-screen-page/about-screen-page';
 import { StatsScreenPage } from './pages/stats-screen-page/stats-screen-page';
 import { ServicesScreenPage } from './pages/services-screen-page/services-screen-page';
 import { RoomsScreenPage } from './pages/rooms-screen-page/rooms-screen-page';
+import { ReviewScreenPage } from './pages/review-screen-page/review-screen-page';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RoomsScreenPage } from './pages/rooms-screen-page/rooms-screen-page';
     AboutScreenPage,
     StatsScreenPage,
     ServicesScreenPage,
-    RoomsScreenPage
+    RoomsScreenPage,
+    ReviewScreenPage
   ],
   imports: [
     BrowserModule,
