@@ -24,7 +24,6 @@ section{
 .review-container {
     width: 100%;
     max-width: 1236px;
-    min-width: calc(100% - 314px); /* მინიმუმი 157px * 2 გვერდზე */
     height: 408px;
     display: flex;
     flex-direction: column;
